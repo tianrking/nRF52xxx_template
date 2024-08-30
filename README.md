@@ -75,6 +75,11 @@ Ensure you have the following installed:
    ```
 
 2. Compile the project:
+
+    ```bash
+    make GNU_INSTALL_ROOT=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/
+    ```
+    
    ```bash
    make
    ```
