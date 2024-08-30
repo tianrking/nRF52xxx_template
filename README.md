@@ -70,8 +70,9 @@ Ensure you have the following installed:
 ## Compilation
 
 1. Choose your target board and configuration. For example, for nRF52840 DK without SoftDevice:
-   ```bash
-   cd pca10056/blank/armgcc
+   ```bash 
+
+   cd pca10056/mbr/armgcc #test  wwit hbootloader must use mbr instead of blank
    ```
 
 2. Compile the project:
@@ -79,7 +80,7 @@ Ensure you have the following installed:
     ```bash
     make GNU_INSTALL_ROOT=/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/
     ```
-    
+
    ```bash
    make
    ```
