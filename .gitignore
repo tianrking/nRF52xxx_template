@@ -1,0 +1,66 @@
+# 编译输出
+_build/
+*.o
+*.d
+*.bin
+*.hex
+*.map
+*.out
+*.elf
+
+# nRF5 SDK 特定文件
+*.emSession
+*.jlink
+
+# IDE和编辑器特定文件
+*.uvoptx
+*.uvprojx
+*.ewd
+*.ewp
+*.eww
+.vscode/
+*.swp
+*~
+
+# Segger Embedded Studio
+*.emProject
+Output/
+*.emSession
+
+# IAR特定文件
+*.ewt
+*.dni
+
+# GCC ARM特定文件
+JLinkLog.txt
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+*.bak
+*.tmp
+
+# 不排除Makefile和链接器脚本
+!Makefile
+!*.ld
+
+# 不排除配置文件
+!sdk_config.h
+
+# 排除生成的固件包
+*.zip
+*.uf2
+
+# 保留特定的hex文件（如果需要）
+# !some_specific_firmware.hex
+
+# 排除私钥文件（如果有）
+*.pem
+*.key
+
+# 其他可能的临时或生成文件
+*.pyc
+__pycache__/
