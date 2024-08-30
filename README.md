@@ -177,6 +177,7 @@ For some applications, especially when using custom boards like nice!nano, you m
 2. nice!nano Specific Bootloader:
    - URL: [https://nicekeyboards.com/assets/nice_nano_bootloader-0.6.0_s140_6.1.1.zip](https://nicekeyboards.com/assets/nice_nano_bootloader-0.6.0_s140_6.1.1.zip)
    - This bootloader is specifically designed for the nice!nano board.
+   - [HELP](https://nicekeyboards.com/docs/nice-nano/troubleshooting/)
 
 Choose the appropriate bootloader based on your specific hardware and project requirements. If you're using a standard Nordic development kit, you typically don't need to worry about the bootloader as it comes pre-installed.
 
